@@ -64,6 +64,11 @@ public class Princpal extends javax.swing.JFrame {
         });
 
         campoCnpj.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        campoCnpj.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                campoCnpjActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -149,10 +154,16 @@ public class Princpal extends javax.swing.JFrame {
         id.add(obj.get("qsa").getAsJsonArray());
         ap.add(obj.get("atividade_principal").getAsJsonArray());
         as.add(obj.get("atividades_secundarias").getAsJsonArray());
+        this.dispose();
         Tela exibe = new Tela(cliente, id, ap, as);
         exibe.setVisible(true);
-        this.dispose();
+        
     }//GEN-LAST:event_jButton1MouseClicked
+
+    private void campoCnpjActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_campoCnpjActionPerformed
+        // TODO add your handling code here:
+        jButton1MouseClicked(null);
+    }//GEN-LAST:event_campoCnpjActionPerformed
 
     /**
      * @param args the command line arguments
