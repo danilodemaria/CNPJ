@@ -23,6 +23,7 @@ public class Tela extends javax.swing.JFrame {
         aux1 = a.get(0).toString();
         aux2 = b.get(0).toString();
         aux3 = c.get(0).toString();
+        /*
         aux1 = aux1.replaceAll("qual", "");
         aux1 = aux1.replaceAll("[{]", "");
         aux1 = aux1.replaceAll("[}]", "");
@@ -44,7 +45,7 @@ public class Tela extends javax.swing.JFrame {
         aux3 = aux3.replace("\"}]", "");
         aux3 = aux3.replace("\"},", " - ");
         aux3 = aux3.replace("[", "");
-        aux3 = aux3.replace(".", "");
+        aux3 = aux3.replace(".", "");*/
 
         outroA.setText(aux1);
         outroB.setText(aux2);
