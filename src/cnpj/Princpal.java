@@ -14,7 +14,7 @@ import java.util.logging.Logger;
 
 /**
  *
- * @author Administração
+ * @author Danilo de MARIA
  */
 public class Princpal extends javax.swing.JFrame {
     ArrayList<Object> id = new ArrayList<>();
