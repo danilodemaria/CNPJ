@@ -110,7 +110,7 @@ public class Princpal extends javax.swing.JFrame {
         cnpj = cnpj.replaceAll("/", "");
         cnpj = cnpj.replaceAll("-", "");
         cnpj = cnpj.replaceAll("[.]", "");
-
+        //teste
         String url = "http://www.receitaws.com.br/v1/cnpj/" + cnpj;
 
         try {
