@@ -3,8 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package cnpj;
+package telas;
 
+import modelo.Empresa;
+import conexao.ConexaoHttp;
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
@@ -23,7 +25,6 @@ public class Principal extends javax.swing.JFrame {
     ArrayList<Object> ap = new ArrayList<>();
     ArrayList<Object> as = new ArrayList<>();
     Empresa cliente = new Empresa();
-    QSA qsa = new QSA();
     String cnpj;
     public static String situation;
 
@@ -139,7 +140,7 @@ public class Principal extends javax.swing.JFrame {
        
         String retorno = null;
         Gson gson = new Gson();
-        HttpExemplo a = new HttpExemplo();
+        ConexaoHttp a = new ConexaoHttp();
 
         cnpj = campoCnpj.getText();
         cnpj = cnpj.replaceAll("/", "");

@@ -1,11 +1,11 @@
-package cnpj;
+package conexao;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
-public class HttpExemplo {
+public class ConexaoHttp {
 
     private final String USER_AGENT = "Mozilla/5.0";
 
