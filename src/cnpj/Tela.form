@@ -129,49 +129,46 @@
                                   <Component id="natureza" max="32767" attributes="0"/>
                                   <Component id="nome" max="32767" attributes="0"/>
                                   <Component id="abertura1" alignment="0" max="32767" attributes="0"/>
-                                  <Group type="102" attributes="0">
-                                      <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="ultimaAtua" min="-2" pref="122" max="-2" attributes="0"/>
-                                          <Group type="102" attributes="0">
-                                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
-                                                  <Component id="bairro" min="-2" pref="122" max="-2" attributes="0"/>
-                                                  <Component id="telefone" alignment="1" min="-2" pref="122" max="-2" attributes="0"/>
-                                                  <Component id="datasituacao" alignment="1" min="-2" pref="122" max="-2" attributes="0"/>
-                                                  <Component id="numero" min="-2" pref="122" max="-2" attributes="0"/>
-                                                  <Component id="municipio" min="-2" pref="122" max="-2" attributes="0"/>
-                                              </Group>
-                                              <Group type="103" groupAlignment="0" attributes="0">
-                                                  <Group type="102" alignment="0" attributes="0">
-                                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                                      <Group type="103" groupAlignment="0" attributes="0">
-                                                          <Component id="jLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
-                                                          <Component id="jLabel6" alignment="0" min="-2" max="-2" attributes="0"/>
-                                                      </Group>
-                                                      <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
-                                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                                          <Component id="sit" min="-2" pref="280" max="-2" attributes="0"/>
-                                                          <Component id="estado" min="-2" pref="280" max="-2" attributes="0"/>
-                                                      </Group>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="ultimaAtua" min="-2" pref="122" max="-2" attributes="0"/>
+                                      <Group type="102" attributes="0">
+                                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                              <Component id="bairro" min="-2" pref="122" max="-2" attributes="0"/>
+                                              <Component id="telefone" alignment="1" min="-2" pref="122" max="-2" attributes="0"/>
+                                              <Component id="datasituacao" alignment="1" min="-2" pref="122" max="-2" attributes="0"/>
+                                              <Component id="numero" min="-2" pref="122" max="-2" attributes="0"/>
+                                              <Component id="municipio" min="-2" pref="122" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Component id="jLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="jLabel6" alignment="0" min="-2" max="-2" attributes="0"/>
                                                   </Group>
-                                                  <Group type="102" alignment="0" attributes="0">
-                                                      <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
-                                                      <Group type="103" groupAlignment="0" attributes="0">
-                                                          <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
-                                                          <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
-                                                          <Component id="jLabel12" alignment="0" min="-2" max="-2" attributes="0"/>
-                                                      </Group>
-                                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                                          <Component id="logradouro" max="32767" attributes="0"/>
-                                                          <Component id="cep" alignment="0" pref="280" max="32767" attributes="0"/>
-                                                          <Component id="abertura" max="32767" attributes="0"/>
-                                                      </Group>
+                                                  <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                      <Component id="sit" min="-2" pref="280" max="-2" attributes="0"/>
+                                                      <Component id="estado" min="-2" pref="280" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="jLabel12" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                      <Component id="cep" alignment="0" pref="640" max="32767" attributes="0"/>
+                                                      <Component id="abertura" max="32767" attributes="0"/>
+                                                      <Component id="logradouro" max="32767" attributes="0"/>
                                                   </Group>
                                               </Group>
                                           </Group>
-                                          <Component id="status" alignment="0" min="-2" pref="122" max="-2" attributes="0"/>
                                       </Group>
-                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                      <Component id="status" alignment="0" min="-2" pref="122" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
                           </Group>

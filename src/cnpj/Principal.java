@@ -16,6 +16,8 @@ import java.util.logging.Logger;
  *
  * @author Danilo de MARIA
  */
+
+
 public class Principal extends javax.swing.JFrame {
     ArrayList<Object> id = new ArrayList<>();
     ArrayList<Object> ap = new ArrayList<>();
@@ -23,6 +25,7 @@ public class Principal extends javax.swing.JFrame {
     Empresa cliente = new Empresa();
     QSA qsa = new QSA();
     String cnpj;
+    public static String situation;
 
     public Principal() throws Exception {
         initComponents();
@@ -158,6 +161,7 @@ public class Principal extends javax.swing.JFrame {
         cliente.setUf(obj.get("uf").getAsString());
         cliente.setTelefone(obj.get("telefone").getAsString());
         cliente.setSituacao(obj.get("situacao").getAsString());
+        situation = obj.get("situacao").getAsString();
         cliente.setBairro(obj.get("bairro").getAsString());
         cliente.setLogradouro(obj.get("logradouro").getAsString());
         cliente.setNumero(obj.get("numero").getAsString());
