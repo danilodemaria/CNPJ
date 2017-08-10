@@ -19,7 +19,7 @@ public class CNPJ {
      */
     public static void main(String[] args) throws Exception {
         
-        Princpal a = new Princpal();
+        Principal a = new Principal();
         a.setVisible(true);
         
 

@@ -16,7 +16,7 @@ import java.util.logging.Logger;
  *
  * @author Danilo de MARIA
  */
-public class Princpal extends javax.swing.JFrame {
+public class Principal extends javax.swing.JFrame {
     ArrayList<Object> id = new ArrayList<>();
     ArrayList<Object> ap = new ArrayList<>();
     ArrayList<Object> as = new ArrayList<>();
@@ -24,7 +24,7 @@ public class Princpal extends javax.swing.JFrame {
     QSA qsa = new QSA();
     String cnpj;
 
-    public Princpal() throws Exception {
+    public Principal() throws Exception {
         initComponents();
         this.setResizable(false);
         this.setLocationRelativeTo(null);
@@ -121,7 +121,7 @@ public class Princpal extends javax.swing.JFrame {
         try {
             retorno = a.sendGet(url);
         } catch (Exception ex) {
-            Logger.getLogger(Princpal.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(Principal.class.getName()).log(Level.SEVERE, null, ex);
         }
 
         JsonObject obj = new JsonParser().parse(retorno).getAsJsonObject();
@@ -182,23 +182,24 @@ public class Princpal extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(Princpal.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Principal.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(Princpal.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Principal.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(Princpal.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Principal.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(Princpal.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Principal.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 try {
-                    new Princpal().setVisible(true);
+                    new Principal().setVisible(true);
                 } catch (Exception ex) {
-                    Logger.getLogger(Princpal.class.getName()).log(Level.SEVERE, null, ex);
+                    Logger.getLogger(Principal.class.getName()).log(Level.SEVERE, null, ex);
                 }
             }
         });
