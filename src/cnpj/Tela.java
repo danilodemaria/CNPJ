@@ -30,7 +30,7 @@ public class Tela extends javax.swing.JFrame {
         aux1 = aux1.replace("[\"\":\"", "");
         aux1 = aux1.replace("\"nome\":\"", "Nome: ");
         aux1 = aux1.replace("\"", "");
-        aux1 = aux1.replace("[0-9]", "");
+        aux1 = aux1.replaceAll("\\d+","");
 
         aux2 = aux2.replaceAll("text", "");
         aux2 = aux2.replaceAll("code", "");
